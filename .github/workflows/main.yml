@@ -9,4 +9,4 @@ jobs:
         with:
           java-version: '17'
       - run: javac -d bin src/**/*.java
-      - run: java -cp bin org.junit.runner.JUnitCore LibraryTest
+      - run: java -cp bin org.junit.jupiter.api.Test LibraryTest
